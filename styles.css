@@ -1,0 +1,108 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: color #f6f6f6;
+    margin: 0;
+}
+h1, h2, h3{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: rgb(42, 77, 42);   
+    margin-bottom: 2px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.home .content-wrapper{
+    background-color: rgb(255 255 255 / 0.8);
+    padding: 15px;
+}
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+footer{
+    background-color: rgb(78, 145, 78);
+    color: #f6f6f6;
+    padding: 10px;
+    width: 100%;
+}
+footer a{
+    color: #f6f6f6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a:hover{
+    color: yellow;
+}
+#contact{
+    color: white;
+    font-size: 30px;
+}
+.socials{
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.socials li{
+    display: inline-block;
+    padding-right: 10px;
+}
+img{
+    width: 50%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(49, 165, 218);
+}
+
+.btn{
+    background-color: rgb(78, 145, 78);
+    color: #f6f6f6;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header::before{
+    background: url(images/sharon-mccutcheon-unsplash.jpg);
+    content:"";
+    display: block;
+    height: 350px;
+    background-size: cover;
+}
+.header-text{
+    margin: 0 auto;
+    max-width: 900px;
+    text-shadow: #b8e05c 1px 0 10px;
+}
+.project-item img{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.project-item{
+    display: flow-root;
+    margin: 30px 0;
+}
+.home-section{
+    margin-bottom: 50px;
+}
+.home-section h2{
+    border-bottom: 2px black dashed;
+}
